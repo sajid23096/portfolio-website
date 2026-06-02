@@ -6,81 +6,50 @@ export const portfolioData = {
     bio: "I am a passionate Full Stack Engineer specializing in building premium, recruiter-focused, high-performance web applications. With a strong eye for design and a focus on performance and accessibility, I create scalable and modular systems that deliver award-winning UI/UX standards.",
     resumeLink: "#",
     socials: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      twitter: "https://twitter.com",
-      email: "mailto:hello@example.com"
+      github: "https://github.com/sajid23096",
+      linkedin: "https://www.linkedin.com/in/mohammed-sajid-2a870b350/?skipRedirect=true",
+      email: "mailto:mohammedsajid23096@gmail.com"
     }
   },
   skills: {
-    frontend: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Three.js", "Next.js", "Vue.js"],
-    backend: ["Node.js", "Express", "PostgreSQL", "MongoDB", "GraphQL", "Python", "Go"],
-    tools: ["Git", "Docker", "AWS", "Figma", "Vercel", "Jest", "Cypress"],
+    frontend: ["React"],
+    backend: ["Node.js", "SQL"],
+    tools: ["Git", "Figma"],
     softSkills: ["System Design", "UI/UX Architecture", "Agile Leadership", "Problem Solving", "Technical Writing"]
   },
   experience: [
     {
       id: 1,
-      role: "Senior Full Stack Engineer",
-      company: "TechNova Solutions",
-      period: "2022 - Present",
-      description: "Led the development of a high-performance enterprise dashboard. Reduced load times by 40% and implemented a comprehensive design system.",
-    },
-    {
-      id: 2,
-      role: "Frontend Developer",
-      company: "Creative Web Agency",
-      period: "2019 - 2022",
-      description: "Developed award-winning marketing websites with immersive 3D interactions and smooth animations. Achieved 95+ Lighthouse scores across all projects.",
-    },
-    {
-      id: 3,
-      role: "Web Development Intern",
-      company: "StartUp Inc",
-      period: "2018 - 2019",
-      description: "Assisted in migrating legacy applications to modern React architectures and maintaining responsive UI components.",
+      role: "Software Engineering Intern",
+      company: "Jyesta",
+      period: "3 Months",
+      description: "Gained hands-on experience in software development, designing web pages, and optimizing application interfaces."
     }
   ],
   education: [
     {
       id: 1,
-      degree: "B.S. in Computer Science",
-      institution: "University of Technology",
-      period: "2015 - 2019"
+      degree: "B.Tech in Computer Science & Engineering (AI & ML)",
+      institution: "Woxsen University, Hyderabad",
+      period: "2024 - 2028"
     }
   ],
   projects: [
     {
       id: 1,
-      title: "FinTech Dashboard",
-      description: "A premium analytics dashboard for financial data with real-time charts and dark mode.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
-      link: "#",
-      tags: ["React", "TypeScript", "Tailwind", "Recharts"]
+      title: "VENZOR",
+      description: "A web-based platform that allows local vendors to list products along with their location and operating hours, helping customers discover nearby vendors and place online requests easily.",
+      image: "/venzor.jpg",
+      link: "https://github.com/sajid23096/VENZOR",
+      tags: ["React", "Node.js", "SQL", "Figma", "Git"]
     },
     {
       id: 2,
-      title: "E-Commerce Experience",
-      description: "A high-performance headless e-commerce storefront with immersive 3D product viewing.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-      link: "#",
-      tags: ["Next.js", "Three.js", "Stripe", "Framer Motion"]
-    },
-    {
-      id: 3,
-      title: "AI Writing Assistant",
-      description: "An AI-powered application that helps users write better content with real-time grammar and style suggestions.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800",
-      link: "#",
-      tags: ["Vue", "Node.js", "OpenAI", "MongoDB"]
-    },
-    {
-      id: 4,
-      title: "Portfolio Template V1",
-      description: "A minimal, accessible portfolio template used by over 5,000 developers worldwide.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800",
-      link: "#",
-      tags: ["HTML", "CSS", "Vanilla JS"]
+      title: "Smart Warehouse System",
+      description: "A smart warehouse logistics system leveraging RFID tags to automate inventory tracking, monitor stock levels, and streamline operations.",
+      image: "/warehouse.jpg",
+      link: "https://github.com/sajid23096/smart-warehouse-system",
+      tags: ["IoT", "Node.js", "SQL", "System Design", "Git"]
     }
   ]
 };

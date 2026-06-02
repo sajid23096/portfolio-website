@@ -18,7 +18,7 @@ const Projects = () => {
               <div className="w-12 h-px bg-accent"></div>
               <h2 className="text-accent font-medium tracking-wide uppercase text-sm">Portfolio</h2>
             </div>
-            <h3 className="text-3xl md:text-5xl font-bold">Featured Work</h3>
+            <h3 className="text-3xl md:text-5xl font-bold">Projects</h3>
           </div>
           
           <a href={portfolioData.personalInfo.socials.github} target="_blank" rel="noreferrer" className="text-secondary hover:text-accent transition-colors flex items-center gap-2 group">
@@ -59,7 +59,9 @@ const Projects = () => {
                 ))}
               </div>
               
-              <h4 className="text-2xl font-bold mb-3 group-hover:text-accent transition-colors">{project.title}</h4>
+              <a href={project.link} target="_blank" rel="noreferrer">
+                <h4 className="text-2xl font-bold mb-3 group-hover:text-accent transition-colors">{project.title}</h4>
+              </a>
               <p className="text-foreground/70 leading-relaxed max-w-lg">{project.description}</p>
             </motion.div>
           ))}

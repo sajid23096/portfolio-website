@@ -15,9 +15,6 @@ const Footer = () => {
           <a href={portfolioData.personalInfo.socials.linkedin} target="_blank" rel="noreferrer" className="text-secondary hover:text-foreground transition-colors text-sm font-medium">
             LinkedIn
           </a>
-          <a href={portfolioData.personalInfo.socials.twitter} target="_blank" rel="noreferrer" className="text-secondary hover:text-foreground transition-colors text-sm font-medium">
-            Twitter
-          </a>
         </div>
       </div>
     </footer>
